@@ -1,0 +1,234 @@
+{
+ "whatsapp": "27632814005",
+ "products": [
+  {
+   "name": "Straight Human Hair, Double Drawn (15A)",
+   "desc": "Sleek, full ends.",
+   "lengths": [
+    {
+     "length": 14,
+     "price": 1750
+    },
+    {
+     "length": 16,
+     "price": 1950
+    },
+    {
+     "length": 18,
+     "price": 2300
+    },
+    {
+     "length": 20,
+     "price": 2450
+    }
+   ]
+  },
+  {
+   "name": "Jerry Curls, Colour #4",
+   "desc": "Same price for Black Water Wave. Super double drawn.",
+   "lengths": [
+    {
+     "length": 16,
+     "price": 2450
+    },
+    {
+     "length": 18,
+     "price": 2550
+    },
+    {
+     "length": 20,
+     "price": 2700
+    },
+    {
+     "length": 22,
+     "price": 2950
+    },
+    {
+     "length": 24,
+     "price": 3450
+    },
+    {
+     "length": 26,
+     "price": 3950
+    }
+   ],
+   "knots": 200
+  },
+  {
+   "name": "Straight Human Hair, Single Drawn",
+   "desc": "Everyday straight, lightweight.",
+   "lengths": [
+    {
+     "length": 16,
+     "price": 1600
+    },
+    {
+     "length": 18,
+     "price": 1900
+    },
+    {
+     "length": 20,
+     "price": 2000
+    },
+    {
+     "length": 22,
+     "price": 2100
+    },
+    {
+     "length": 24,
+     "price": 2350
+    },
+    {
+     "length": 26,
+     "price": 2550
+    },
+    {
+     "length": 28,
+     "price": 3100
+    },
+    {
+     "length": 30,
+     "price": 3250
+    }
+   ]
+  },
+  {
+   "name": "Water Wave Curls, Black (Double Drawn)",
+   "desc": "Defined, bouncy waves.",
+   "lengths": [
+    {
+     "length": 16,
+     "price": 1900
+    },
+    {
+     "length": 18,
+     "price": 2100
+    },
+    {
+     "length": 20,
+     "price": 2250
+    }
+   ]
+  },
+  {
+   "name": "Piano Water Wave, Single Drawn",
+   "desc": "Two-tone piano colour.",
+   "lengths": [
+    {
+     "length": 16,
+     "price": 1600
+    },
+    {
+     "length": 18,
+     "price": 1850
+    },
+    {
+     "length": 20,
+     "price": 1950
+    },
+    {
+     "length": 24,
+     "price": 2300
+    },
+    {
+     "length": 26,
+     "price": 2600
+    },
+    {
+     "length": 28,
+     "price": 2800
+    },
+    {
+     "length": 30,
+     "price": 3100
+    }
+   ]
+  },
+  {
+   "name": "Vietnamese Hair",
+   "desc": "Premium raw-style hair, 10\"-30\" available. Choose your length.",
+   "lengths": [
+    {
+     "length": 10,
+     "price": 5500
+    },
+    {
+     "length": 12,
+     "price": 5500
+    },
+    {
+     "length": 14,
+     "price": 5500
+    },
+    {
+     "length": 16,
+     "price": 5500
+    },
+    {
+     "length": 18,
+     "price": 5500
+    },
+    {
+     "length": 20,
+     "price": 5500
+    },
+    {
+     "length": 22,
+     "price": 5500
+    },
+    {
+     "length": 24,
+     "price": 5500
+    },
+    {
+     "length": 26,
+     "price": 5500
+    },
+    {
+     "length": 28,
+     "price": 5500
+    },
+    {
+     "length": 30,
+     "price": 5500
+    }
+   ]
+  },
+  {
+   "name": "Curly Hair",
+   "desc": "Full, natural-looking curls.",
+   "price": 1650
+  },
+  {
+   "name": "Straight Human Hair 13x6 Lace",
+   "desc": "18\"-32\". Single drawn, DD or SDD. Price on request.",
+   "ask_price": true
+  }
+ ],
+ "delivery": [
+  {
+   "name": "Paxi, 3-5 business days",
+   "fee": 110,
+   "from": false,
+   "door": false
+  },
+  {
+   "name": "Paxi, 7-9 business days",
+   "fee": 60,
+   "from": false,
+   "door": false
+  },
+  {
+   "name": "Door to door, 3-4 business days",
+   "fee": 130,
+   "from": true,
+   "door": true
+  },
+  {
+   "name": "Door to door, 1-3 business days (express)",
+   "fee": 200,
+   "from": true,
+   "door": true
+  }
+ ]
+}

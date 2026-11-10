@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Avees Crown Hair – Crowned in Luxury</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F3EA;--surface:#FFFDF8;--ink:#111111;--muted:#5E5A52;--accent:#111111;--accent-ink:#F7F3EA;--line:#DDD5C3;--gold:#9A7A45;--ph1:#EAE3D3;--ph2:#D8CFBC;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1D1220;--surface:#2A1B2E;--ink:#F3E8EA;--muted:#B9A5BC;--accent:#D9738F;--accent-ink:#1D1220;--line:#44304A;--gold:#C9A56A;--ph1:#3B2640;--ph2:#533457;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1D1220;--surface:#2A1B2E;--ink:#F3E8EA;--muted:#B9A5BC;--accent:#D9738F;--accent-ink:#1D1220;--line:#44304A;--gold:#C9A56A;--ph1:#3B2640;--ph2:#533457;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:70px;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Figtree,system-ui,sans-serif}
+h1,h2,h3{font-family:"Bodoni Moda",Georgia,serif;font-weight:500;margin:0;line-height:1.15}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:12px 20px}
+.logo{font-family:"Bodoni Moda",serif;font-size:1.15rem;letter-spacing:.04em;text-decoration:none;color:var(--ink)}
+nav{display:flex;gap:18px;align-items:center}nav a{color:var(--ink);text-decoration:none;font-size:.95rem}
+button{font:inherit;cursor:pointer}
+.cartbtn{background:var(--ink);color:var(--bg);border:0;border-radius:999px;padding:8px 16px;font-weight:600}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.hero{padding:56px 20px 0;max-width:1100px;margin:auto}
+.hero h1{font-size:clamp(2.6rem,10vw,5.6rem);letter-spacing:-.01em;max-width:11ch}
+.hero p{max-width:46ch;color:var(--muted);font-size:1.1rem;margin:18px 0 24px}
+.cta{display:inline-block;background:var(--accent);color:var(--accent-ink);border:0;border-radius:6px;padding:12px 22px;font-weight:600;text-decoration:none}
+.ruler{margin-top:44px;height:46px;border-top:2px solid var(--ink);background:repeating-linear-gradient(90deg,var(--ink) 0 1px,transparent 1px 14px) top/100% 12px no-repeat,repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 70px) top/100% 22px no-repeat;position:relative}
+.ruler span{position:absolute;top:24px;font-size:.78rem;color:var(--muted)}
+section{max-width:1100px;margin:auto;padding:56px 20px 0}
+section>h2{font-size:clamp(1.8rem,5vw,2.6rem)}section>p.lead{color:var(--muted);max-width:56ch;margin:8px 0 28px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.ph{aspect-ratio:4/3;background:linear-gradient(135deg,var(--ph1),var(--ph2));display:grid;place-items:center;font-family:"Bodoni Moda",serif;font-size:1.3rem;color:var(--muted);letter-spacing:.08em}
+.body{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.body h3{font-size:1.25rem}.tag{font-size:.88rem;color:var(--muted);margin:0}
+.price{font-weight:600;font-size:1.2rem}.price small{font-weight:400;color:var(--muted)}
+label.f{display:flex;flex-direction:column;gap:4px;font-size:.88rem;color:var(--muted)}
+select,input[type=text],input[type=tel],textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:9px 10px;width:100%}
+.chk{display:flex;gap:8px;align-items:center;font-size:.9rem}
+.add{margin-top:auto;background:var(--ink);color:var(--bg);border:0;border-radius:6px;padding:11px;font-weight:600}
+.add.alt{background:transparent;color:var(--ink);border:1px solid var(--ink);text-align:center;text-decoration:none}
+.opts{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.opt{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:16px}
+.opt b{display:block;font-family:"Bodoni Moda",serif;font-size:1.1rem}.opt .p{color:var(--accent);font-weight:600}
+.policy{margin:0;padding-left:18px;color:var(--muted)}
+footer{max-width:1100px;margin:64px auto 0;padding:24px 20px 48px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer a{color:var(--ink)}
+#ov{position:fixed;inset:0;background:rgba(20,8,24,.55);display:none;z-index:30}
+#ov.on{display:block}
+#drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--bg);z-index:31;transform:translateX(100%);transition:transform .25s;display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}
+#drawer.on{transform:none}
+@media (prefers-reduced-motion:reduce){#drawer{transition:none}html{scroll-behavior:auto}}
+.dh{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line)}
+.dh button{background:none;border:0;color:var(--ink);font-size:1.6rem;line-height:1}
+.db{overflow:auto;padding:16px 18px;flex:1;display:flex;flex-direction:column;gap:16px}
+.item{display:grid;grid-template-columns:1fr auto;gap:4px 10px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.item small{color:var(--muted);grid-column:1}
+.qty{display:flex;align-items:center;gap:8px;grid-column:1}
+.qty button{width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.rm{background:none;border:0;color:var(--accent);text-decoration:underline;padding:0;font-size:.85rem}
+.ship{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:10px;font-size:.92rem}
+.ship input{margin-top:5px;accent-color:var(--accent)}.ship.sel{border-color:var(--accent)}
+.tot{display:flex;justify-content:space-between;font-size:.95rem}.tot.big{font-weight:600;font-size:1.15rem}
+.df{padding:14px 18px calc(14px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.note{font-size:.82rem;color:var(--muted);margin:0}.err{color:#B3261E;font-size:.88rem;min-height:1.2em;margin:0}
+.pay{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:.9rem}
+.status{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 16px 7px 12px;font-size:.92rem;margin-bottom:22px}
+.status i{width:10px;height:10px;border-radius:50%;background:#2E9E5B;box-shadow:0 0 0 4px rgba(46,158,91,.2)}
+.status.closed i{background:#C0392B;box-shadow:0 0 0 4px rgba(192,57,43,.2)}
+.status b{font-weight:600}
+.pg{display:none}.pg.on{display:block}
+nav{gap:10px}
+.burger{width:44px;height:44px;border:1px solid var(--line);border-radius:8px;background:var(--surface);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px;padding:0}
+.burger span{display:block;width:20px;height:2px;background:var(--ink);border-radius:2px}
+.menu{display:none;position:absolute;top:100%;right:12px;min-width:210px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px;flex-direction:column;gap:2px;box-shadow:0 10px 30px rgba(20,8,24,.18)}
+.menu.on{display:flex}
+.menu a{padding:11px 12px;color:var(--ink);text-decoration:none;border-radius:6px}
+.menu a[aria-current=page]{background:var(--ph1);font-weight:600}
+</style>
+</head>
+<body>
+<header>
+<a class="logo" href="#home">Avees Crown Hair</a>
+<nav><button class="cartbtn" id="openCart" aria-label="Open cart">Cart (<span id="cnt">0</span>)</button>
+<button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></nav>
+<div class="menu" id="menu"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#delivery">Delivery</a><a href="#returns">Returns</a><a href="#contact">Contact</a></div>
+</header>
+
+<div class="hero pg" data-p="home" id="top">
+<div class="status" id="hrs" role="status"><i></i><span><b>Open now</b>, open 24 hours</span></div>
+<h1>Crowned in luxury.</h1>
+<p>Long-lasting, untangling human hair. Transparent and HD lace only. Straight from our warehouse to you, with nationwide delivery.</p>
+<a class="cta" href="#shop">Shop wigs and extensions</a>
+<div class="ruler" aria-hidden="true"><span style="left:0">10"</span><span style="left:25%">18"</span><span style="left:50%">24"</span><span style="left:75%">28"</span><span style="right:0">32"</span></div>
+</div>
+
+<section class="pg" data-p="home">
+<h2>How it works</h2>
+<p class="lead">Order in three steps. No account needed.</p>
+<div class="opts">
+<div class="opt"><b>Choose your length</b>Browse the shop and pick the style and length you want.</div>
+<div class="opt"><b>Check out on WhatsApp</b>Your order is typed out for you. Edit it if you like, then send.</div>
+<div class="opt"><b>Get it delivered</b>Paxi or door to door, anywhere in South Africa. <a href="#delivery" style="color:var(--accent)">See delivery options</a>.</div>
+</div>
+</section>
+
+<section class="pg" data-p="shop" id="shop">
+<h2>Shop</h2>
+<p class="lead">Pick your length, then add it to your cart. Prices are in rand and change with length.</p>
+<div class="grid" id="products"></div>
+</section>
+
+<section class="pg" data-p="delivery" id="delivery">
+<h2>Delivery</h2>
+<p class="lead">Nationwide. Choose your option at checkout.</p>
+<div class="opts" id="delopts"></div>
+<p class="note" style="margin-top:12px">Door-to-door prices depend on your address. We confirm the exact amount before you pay.</p>
+</section>
+
+<section class="pg" data-p="returns" id="policy">
+<h2>Ordering and returns</h2>
+<p class="lead">Orders are confirmed only after full payment.</p>
+<ul class="policy">
+<li>Check your hair on video within 24 hours. It must be unused, uninstalled and still have its tags on.</li>
+<li>No returns on hair that has been installed, washed, tinted or cut.</li>
+<li>Report defective items within 24 hours.</li>
+</ul>
+</section>
+
+<section class="pg" data-p="contact">
+<h2>Contact</h2>
+<p class="lead">Open 24 hours, every day. WhatsApp is the fastest way to reach us.</p>
+<div class="opts">
+<div class="opt"><b>WhatsApp and phone</b><a class="wa" href="#" style="color:var(--accent)"></a></div>
+<div class="opt"><b>Instagram</b><a href="https://instagram.com/aveescrownhair" style="color:var(--accent)">@aveescrownhair</a></div>
+<div class="opt"><b>Payment</b>Orders are confirmed after full payment. Send your proof of payment once you have paid.</div>
+</div>
+</section>
+
+<footer>
+<strong>Avees Crown Hair</strong> – Crowned in Luxury<br>Open 24 hours, every day.<br>
+Phone / WhatsApp: <a class="wa" href="#"></a> · Instagram: <a href="https://instagram.com/aveescrownhair">@aveescrownhair</a>
+</footer>
+
+<div id="ov"></div>
+<aside id="drawer" aria-label="Your cart" aria-hidden="true">
+<div class="dh"><h2 style="font-size:1.4rem">Your cart</h2><button id="closeCart" aria-label="Close cart">×</button></div>
+<div class="db" id="cartBody"></div>
+<div class="df" id="cartFoot"></div>
+</aside>
+
+<script>
+var P=[],D=[],WA="";
+function main(S){
+WA=String(S.whatsapp).replace(/\D/g,"");
+P=S.products.map(function(p,i){return{id:"p"+i,n:p.name,t:p.desc||"",l:p.lengths&&p.lengths.length?p.lengths.map(function(x){return[Number(x.length),Number(x.price)]}):undefined,fixed:p.price?Number(p.price):undefined,knots:p.knots?Number(p.knots):undefined,ask:p.ask_price?1:undefined}});
+D=S.delivery.map(function(d,i){return{id:"d"+i,n:d.name,f:Number(d.fee),from:d.from?1:0,door:!!d.door}});
+document.getElementById("delopts").innerHTML=D.map(function(d){return'<div class="opt"><b>'+esc(d.n)+'</b><span class="p">'+(d.from?"From ":"")+R(d.f)+'</span></div>'}).join("");
+var disp=WA.indexOf("27")===0?"0"+WA.slice(2,4)+" "+WA.slice(4,7)+" "+WA.slice(7):WA;
+document.querySelectorAll("a.wa").forEach(function(a){a.href="https://wa.me/"+WA;a.textContent=disp});
+var cart=[],ship=D[0].id;
+function R(n){return "R"+n.toLocaleString("en-ZA").replace(/,/g," ")}
+try{var s=localStorage.getItem("avees-cart");if(s)cart=JSON.parse(s)||[]}catch(e){}
+function save(){try{localStorage.setItem("avees-cart",JSON.stringify(cart))}catch(e){}}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+
+function card(p){
+var h='<div class="card"><div class="ph" aria-hidden="true">AVEES</div><div class="body"><h3>'+esc(p.n)+'</h3><p class="tag">'+esc(p.t)+'</p>';
+if(p.ask){h+='<div class="price"><small>Price on request</small></div><a class="add alt" href="https://wa.me/'+WA+'?text='+encodeURIComponent("Hi, I would like a price for: "+p.n)+'">Ask for a price</a>'}
+else if(p.fixed){h+='<div class="price" id="pr-'+p.id+'">'+R(p.fixed)+'</div><button class="add" data-id="'+p.id+'">Add to cart</button>'}
+else{
+h+='<label class="f">Length<select id="len-'+p.id+'" data-id="'+p.id+'">'+p.l.map(function(x,i){return'<option value="'+i+'">'+x[0]+'" – '+R(x[1])+'</option>'}).join("")+'</select></label>';
+if(p.knots)h+='<label class="chk"><input type="checkbox" id="kn-'+p.id+'"> Pluck and bleach knots (+R'+p.knots+')</label>';
+h+='<div class="price" id="pr-'+p.id+'">'+R(p.l[0][1])+'</div><button class="add" data-id="'+p.id+'">Add to cart</button>'}
+return h+'</div></div>'}
+document.getElementById("products").innerHTML=P.map(card).join("");
+
+function cur(p){var i=0,x=0;if(p.fixed)return{len:null,price:p.fixed,kn:0};
+var sel=document.getElementById("len-"+p.id);i=sel?+sel.value:0;var kn=0;var k=document.getElementById("kn-"+p.id);if(k&&k.checked)kn=p.knots;
+return{len:p.l[i][0],price:p.l[i][1]+kn,kn:kn}}
+function upd(p){var c=cur(p),e=document.getElementById("pr-"+p.id);if(e)e.textContent=R(c.price)}
+P.forEach(function(p){var s=document.getElementById("len-"+p.id),k=document.getElementById("kn-"+p.id);if(s)s.onchange=function(){upd(p)};if(k)k.onchange=function(){upd(p)}});
+document.getElementById("products").onclick=function(e){var b=e.target.closest(".add[data-id]");if(!b)return;
+var p=P.filter(function(x){return x.id===b.dataset.id})[0],c=cur(p);
+var key=p.id+"|"+c.len+"|"+c.kn,f=cart.filter(function(i){return i.key===key})[0];
+if(f)f.q++;else cart.push({key:key,n:p.n,len:c.len,kn:c.kn,price:c.price,q:1});
+save();render();var o=b.textContent;b.textContent="Added";setTimeout(function(){b.textContent=o},1200)};
+
+var dr=document.getElementById("drawer"),ov=document.getElementById("ov");
+function open(v){dr.classList.toggle("on",v);ov.classList.toggle("on",v);dr.setAttribute("aria-hidden",!v);if(v)render()}
+document.getElementById("openCart").onclick=function(){open(true)};
+document.getElementById("closeCart").onclick=function(){open(false)};ov.onclick=function(){open(false)};
+document.onkeydown=function(e){if(e.key==="Escape")open(false)};
+
+function sub(){return cart.reduce(function(a,i){return a+i.price*i.q},0)}
+function render(){
+document.getElementById("cnt").textContent=cart.reduce(function(a,i){return a+i.q},0);
+var b=document.getElementById("cartBody"),f=document.getElementById("cartFoot");
+if(!cart.length){b.innerHTML='<p>Your cart is empty. Pick a length and choose <b>Add to cart</b>.</p>';f.innerHTML='';return}
+var keep={};["nm","ph","ad"].forEach(function(k){var e=document.getElementById(k);if(e)keep[k]=e.value});
+var h=cart.map(function(i,x){return'<div class="item"><div><b>'+esc(i.n)+'</b></div><div>'+R(i.price*i.q)+'</div><small>'+(i.len?i.len+'"':'')+(i.kn?' · knots plucked and bleached':'')+'</small><div class="qty"><button data-a="m" data-i="'+x+'" aria-label="Less">−</button>'+i.q+'<button data-a="p" data-i="'+x+'" aria-label="More">+</button><button class="rm" data-a="r" data-i="'+x+'">Remove</button></div></div>'}).join("");
+h+='<div><b>Delivery</b></div>'+D.map(function(d){return'<label class="ship'+(ship===d.id?' sel':'')+'"><input type="radio" name="sh" value="'+d.id+'"'+(ship===d.id?' checked':'')+'><span>'+d.n+'<br><b>'+(d.from?'From ':'')+R(d.f)+'</b></span></label>'}).join("");
+h+='<label class="f">Full name<input type="text" id="nm" autocomplete="name"></label><label class="f">Phone number<input type="tel" id="ph" autocomplete="tel"></label><label class="f">'+(isDoor()?'Full delivery address (needed to confirm your delivery price)':'Nearest Paxi point or town')+'<textarea id="ad" rows="2"></textarea></label>';
+b.innerHTML=h;
+["nm","ph","ad"].forEach(function(k){if(keep[k])document.getElementById(k).value=keep[k]});
+var d=D.filter(function(x){return x.id===ship})[0];
+f.innerHTML='<div class="tot"><span>Subtotal</span><span>'+R(sub())+'</span></div><div class="tot"><span>Delivery'+(d.from?' (from)':'')+'</span><span>'+R(d.f)+'</span></div><div class="tot big"><span>Total'+(d.from?' (from)':'')+'</span><span>'+R(sub()+d.f)+'</span></div><p class="err" id="err" role="alert"></p><a class="cta" id="send" href="https://wa.me/'+WA+'" target="_blank" rel="noopener" style="display:block;text-align:center">Checkout on WhatsApp</a><p class="note">This opens WhatsApp with your order already typed out. You can edit the message before you send it. Your order is confirmed after full payment.</p>'}
+function isDoor(){var x=D.filter(function(d){return d.id===ship})[0];return !!(x&&x.door)}
+document.getElementById("cartBody").onclick=function(e){var b=e.target.closest("button[data-a]");if(!b)return;var i=+b.dataset.i,a=b.dataset.a;
+if(a==="p")cart[i].q++;else if(a==="m"){cart[i].q--;if(cart[i].q<1)cart.splice(i,1)}else cart.splice(i,1);save();render()};
+document.getElementById("cartBody").onchange=function(e){if(e.target.name==="sh"){ship=e.target.value;render()}};
+document.getElementById("cartFoot").onclick=function(e){if(e.target.id!=="send")return;
+var nm=document.getElementById("nm").value.trim(),ph=document.getElementById("ph").value.trim(),ad=document.getElementById("ad").value.trim(),er=document.getElementById("err");
+if(!nm||!ph||!ad){er.textContent="Please fill in your name, phone number and "+(isDoor()?"delivery address.":"Paxi point or town.");e.preventDefault();return}
+var d=D.filter(function(x){return x.id===ship})[0];
+var m="Hi Avees Crown Hair, I would like to order:\n"+cart.map(function(i){return"• "+i.q+" × "+i.n+(i.len?" "+i.len+'"':"")+(i.kn?" (knots plucked and bleached)":"")+" – "+R(i.price*i.q)}).join("\n")+"\n\nSubtotal: "+R(sub())+"\nDelivery: "+d.n+" – "+(d.from?"from ":"")+R(d.f)+"\nTotal: "+(d.from?"from ":"")+R(sub()+d.f)+"\n\nName: "+nm+"\nPhone: "+ph+"\n"+(isDoor()?"Address: ":"Paxi point or town: ")+ad;
+e.target.href="https://wa.me/"+WA+"?text="+encodeURIComponent(m)};
+var HOURS=[[0,1440],[0,1440],[0,1440],[0,1440],[0,1440],[0,1440],[0,1440]];/* Sun to Sat, minutes from midnight; null = closed that day */
+function fmt(m){var h=Math.floor(m/60),n=m%60;return(h<10?"0":"")+h+":"+(n<10?"0":"")+n}
+function hours(){var o={};new Intl.DateTimeFormat("en-US",{timeZone:"Africa/Johannesburg",weekday:"short",hour:"2-digit",minute:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).forEach(function(x){o[x.type]=x.value});
+var N=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],L=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],d=N.indexOf(o.weekday),t=+o.hour*60+(+o.minute),h=HOURS[d],el=document.getElementById("hrs"),op=!!h&&t>=h[0]&&t<h[1],txt;
+if(op){txt="<b>Open now</b>, "+(h[0]===0&&h[1]===1440?"open 24 hours":"closes at "+fmt(h[1]))}
+else{txt="<b>Closed</b>";for(var i=0;i<8;i++){var k=(d+i)%7,x=HOURS[k];if(x&&(i>0||t<x[0])){txt+=", opens "+(i===0?"today":i===1?"tomorrow":L[k])+" at "+fmt(x[0]);break}}}
+el.classList.toggle("closed",!op);el.innerHTML="<i></i><span>"+txt+"</span>"}
+hours();setInterval(hours,60000);
+var pages=["home","shop","delivery","returns","contact"],mn=document.getElementById("menu"),bg=document.getElementById("burger");
+function menu(v){mn.classList.toggle("on",v);bg.setAttribute("aria-expanded",v)}
+bg.onclick=function(){menu(!mn.classList.contains("on"))};mn.onclick=function(){menu(false)};
+function route(){var h=(location.hash||"#home").slice(1);if(pages.indexOf(h)<0)h="home";
+document.querySelectorAll(".pg").forEach(function(e){e.classList.toggle("on",e.dataset.p===h)});
+document.querySelectorAll("#menu a").forEach(function(a){a.setAttribute("aria-current",a.getAttribute("href")==="#"+h?"page":"false")});
+menu(false);window.scrollTo(0,0)}
+window.addEventListener("hashchange",route);route();
+render();
+
+}
+fetch("site.json").then(function(r){return r.json()}).then(main).catch(function(){document.getElementById("products").textContent="Could not load the shop. Please refresh the page."});
+</script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>if(window.netlifyIdentity){window.netlifyIdentity.on("init",function(u){if(!u){window.netlifyIdentity.on("login",function(){document.location.href="/admin"})}})}</script>
+</body>
+</html>
