@@ -1,4 +1,4 @@
-media_folder: images
+Ohhh media_folder: images
 public_folder: /images
 backend:
   name: git-gateway
