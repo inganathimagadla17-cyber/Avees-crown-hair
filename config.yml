@@ -24,6 +24,7 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: Short description, name: desc, widget: string, required: false }
+              - { label: Photo, name: image, widget: image, required: false, hint: "Use a photo less than 1MB" } 
               - { label: Price (only for items with ONE price), name: price, widget: number, value_type: int, required: false }
               - label: Lengths and prices (for items priced by length)
                 name: lengths
